@@ -9,6 +9,13 @@ html {
     text-align: center;
     background-color: black;
 }
+#main-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
 .white {
     color: white;
 }
@@ -32,6 +39,11 @@ h2 {
 #bottom img {
     margin: 0;
 }
+#guide img {
+    width: 90%;
+    max-width: 896px;
+}
 .copy {
     text-align: right;
+    margin-right: 2%;
 }
